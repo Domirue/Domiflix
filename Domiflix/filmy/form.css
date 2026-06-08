@@ -130,24 +130,6 @@ h3, p {
 }
 
 
-.status {
-    font-weight: bold;
-}
-
-
-
-.status-zaakceptowany {
-    color: lightgreen;
-}
-
-.status-odrzucony {
-    color: tomato;
-}
-
-.status-oczekujacy {
-    color: yellow;
-}
-
 
 
 main a {
