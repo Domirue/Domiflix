@@ -1,0 +1,213 @@
+
+body.zglos {
+    font-family: Arial, sans-serif;
+    background: #0b0f1a;
+    color: #fff;
+    margin: 0;
+}
+
+.zglos-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background: #111827;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body.zglos {
+    background: #0b0f1a;
+    color: #fff;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+body.zglos a {
+    text-decoration: none;
+}
+
+
+
+.zglos-container {
+    width: 100%;
+    max-width: 500px;
+
+    margin-top: 40px;
+
+    background: #111827;
+    padding: 30px;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.zglos-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #1f2937;
+    color: white;
+    outline: none;
+
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 12px;
+
+    background: #2563eb;
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    cursor: pointer;
+
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: scale(1.02);
+}
+
+
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+
+main > div {
+    background: #111827;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+
+h3, p {
+    margin-bottom: 8px;
+}
+
+
+.status {
+    font-weight: bold;
+}
+
+
+
+.status-zaakceptowany {
+    color: lightgreen;
+}
+
+.status-odrzucony {
+    color: tomato;
+}
+
+.status-oczekujacy {
+    color: yellow;
+}
+
+
+
+main a {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+main a:hover {
+    opacity: 0.7;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .zglos-container {
+        margin-top: 20px;
+        border-radius: 0;
+    }
+
+    main > div {
+        margin: 10px 0;
+        border-radius: 0;
+    }
+}
+.zglos-container h2 {
+    margin-bottom: 20px;
+}
+.zglos-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #1f2937;
+    color: white;
+    outline: none;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: scale(1.02);
+}
