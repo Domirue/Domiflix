@@ -1,26 +1,54 @@
-# Domiflix – zaawansowana aplikacja webowa
+# Domiflix â€“ Advanced Web Application
+
+## Project Description
+
+The application allows users to browse a movie database. The homepage displays a list of available movies, while each movie has its own dynamically generated page based on data retrieved from the database. Detailed information is presented for each movie, including the title, description, genre, release year, and other data stored in the database.
+
+The project uses PHP for database communication and dynamic page generation, JavaScript for handling interactive user interface elements, and HTML and CSS for creating the visual layer of the application.
+
+## Requirements
+
+* XAMPP (Apache + MySQL)
+* PHP
+* Web browser
+
+## Installation and Setup
+
+1. Copy the `filmy` folder to the `htdocs` directory in XAMPP.
+2. Start the **Apache** and **MySQL** modules in the XAMPP Control Panel.
+3. Open phpMyAdmin (`http://localhost/phpmyadmin`).
+4. Create a new database.
+5. Import the `filmy.sql` file into the newly created database.
+6. If necessary, adjust the database connection settings in the project files.
+7. Open the following address in your web browser:
+
+   `http://localhost/filmy`
+
+============================================================================================
+
+# Domiflix â€“ zaawansowana aplikacja webowa
 
 ## Opis projektu
 
-Aplikacja umo¿liwia przegl¹danie bazy filmów. Na stronie g³ównej wyœwietlana jest lista dostêpnych filmów, natomiast ka¿dy film posiada w³asn¹ podstronê generowan¹ dynamicznie na podstawie danych pobieranych z bazy danych. Dla ka¿dego filmu prezentowane s¹ szczegó³owe informacje, takie jak tytu³, opis, gatunek, rok produkcji oraz inne zapisane w bazie dane.
+Aplikacja umoÅ¼liwia przeglÄ…danie bazy filmÃ³w. Na stronie gÅ‚Ã³wnej wyÅ›wietlana jest lista dostÄ™pnych filmÃ³w, natomiast kaÅ¼dy film posiada wÅ‚asnÄ… podstronÄ™ generowanÄ… dynamicznie na podstawie danych pobieranych z bazy danych. Dla kaÅ¼dego filmu prezentowane sÄ… szczegÃ³Å‚owe informacje, takie jak tytuÅ‚, opis, gatunek, rok produkcji oraz inne zapisane w bazie dane.
 
-Projekt wykorzystuje PHP do komunikacji z baz¹ danych i generowania dynamicznej zawartoœci stron, JavaScript do obs³ugi interaktywnych elementów interfejsu, a HTML i CSS do stworzenia warstwy wizualnej aplikacji.
+Projekt wykorzystuje PHP do komunikacji z bazÄ… danych i generowania dynamicznej zawartoÅ›ci stron, JavaScript do obsÅ‚ugi interaktywnych elementÃ³w interfejsu, a HTML i CSS do stworzenia warstwy wizualnej aplikacji.
 
 ## Wymagania
 
 * XAMPP (Apache + MySQL)
 * PHP
-* Przegl¹darka internetowa
+* PrzeglÄ…darka internetowa
 
 ## Instalacja i uruchomienie
 
 1. Skopiuj folder `filmy` do katalogu `htdocs` w XAMPP.
-2. Uruchom modu³y **Apache** oraz **MySQL** w panelu XAMPP.
-3. Otwórz phpMyAdmin (`http://localhost/phpmyadmin`).
-4. Utwórz now¹ bazê danych.
+2. Uruchom moduÅ‚y **Apache** oraz **MySQL** w panelu XAMPP.
+3. OtwÃ³rz phpMyAdmin (`http://localhost/phpmyadmin`).
+4. UtwÃ³rz nowÄ… bazÄ™ danych.
 5. Zaimportuj plik `filmy.sql` do utworzonej bazy.
-6. W razie potrzeby dostosuj dane po³¹czenia z baz¹ danych w plikach projektu.
-7. Otwórz w przegl¹darce adres:
+6. W razie potrzeby dostosuj dane poÅ‚Ä…czenia z bazÄ… danych w plikach projektu.
+7. OtwÃ³rz w przeglÄ…darce adres:
 
    `http://localhost/filmy`
 
