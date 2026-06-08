@@ -125,7 +125,7 @@ main{
     padding: 15px;
 }
 
-.sekcja1, .sekcja2, .sekcja3, .sekcja4, .sekcja5{
+.sekcja1, .sekcja3, .sekcja4, .sekcja5{
     background-color: var(--panel);
     padding: 20px;
     border-radius: 15px;
@@ -149,18 +149,6 @@ main{
 }
 
 
-
-.karta{
-    background-color: var(--card);
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.karta:hover{
-    transform: scale(1.05);
-    background-color: var(--hover-card);
-}
 
 
 
@@ -188,7 +176,6 @@ footer{
 
 
 .sekcja1:hover,
-.sekcja2:hover,
 .sekcja3:hover,
 .sekcja4:hover,
 .sekcja5:hover{
